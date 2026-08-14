@@ -15,10 +15,10 @@ jobs:
       - name: Build Kernel
         uses: dabao1955/kernel_build_action@main
         with:
-          kernel-url: https://github.com/AcmeUI-Devices/android_kernel_xiaomi_cas
-          kernel-dir: msm-4.19
-          kernel-branch: taffy
-          config: cas_defconfig
+          kernel-url: https://github.com/LumiPlayground/android_kernel_samsung_sm8150
+          kernel-dir: msm-4.14
+          kernel-branch: rawr-bpf
+          config: r5q_eur_open_defconfig
           arch: arm64
           aosp-gcc: true
           aosp-clang: true
