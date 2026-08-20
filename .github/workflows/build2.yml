@@ -18,7 +18,7 @@ jobs:
           kernel-url: https://github.com/sh4dow6oy/android_kernel_samsung_sm8150
           kernel-dir: msm-4.14
           kernel-branch: auriana
-          config: r5q_eur_open_defconfig
+          config: r3q_eur_open_defconfig
           arch: arm64
           aosp-gcc: true
           aosp-clang: true
