@@ -15,9 +15,9 @@ jobs:
       - name: Build Kernel
         uses: dabao1955/kernel_build_action@main
         with:
-          kernel-url: https://github.com/sh4dow6oy/test
+          kernel-url: https://github.com/sh4dow6oy/android_kernel_samsung_sm7125
           kernel-dir: msm-4.14
-          kernel-branch: android15
+          kernel-branch: oneui/android16
           config: r5q_eur_open_defconfig
           arch: arm64
           aosp-gcc: true
