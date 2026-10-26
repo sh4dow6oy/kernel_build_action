@@ -15,9 +15,9 @@ jobs:
       - name: Build Kernel
         uses: dabao1955/kernel_build_action@main
         with:
-          kernel-url: https://github.com/sh4dow6oy/android_kernel_samsung_sm8150
+          kernel-url: https://github.com/sh4dow6oy/TEXT8150
           kernel-dir: msm-4.14
-          kernel-branch: auriana
+          kernel-branch: android16
           config: r5q_eur_open_defconfig
           arch: arm64
           aosp-gcc: true
