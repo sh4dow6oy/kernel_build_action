@@ -87,7 +87,7 @@ export async function installDependencies(): Promise<void> {
       'parallel',
       'jq',
       'opam',
-      'libpcre3-dev',
+      'libpcre2-dev',
     ]);
   } else if (pkgMgr === 'pacman') {
     await sudoExec('pacman', ['-Syyu', '--noconfirm']);
