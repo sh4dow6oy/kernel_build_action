@@ -12,8 +12,8 @@ jobs:
       contents: read
 
     steps:
-      - name: Build Kernel
-        uses: dabao1955/kernel_build_action@main
+      - name: Android Kernel Build Action
+        uses: dabao1955/kernel_build_action@v1.10.6
         with:
           kernel-url: https://github.com/sh4dow6oy/device_kernel_r5q
           kernel-dir: msm-4.19
